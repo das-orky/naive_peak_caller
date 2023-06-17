@@ -103,9 +103,7 @@ def chromosome_index(dataset,out_chromo_index):
     # It will create a metadata file that contains the chromosomes name, the start and the
     # end row of the dataset. i.e starting row and the end row for a certain chromosome that is
     # present in the dataset. e.g chr2, 567 , 1023 : Means chrosome-2 start from row 567 and end
-    # at row number 1023. The first if statement is for the last chromosome in the dataset. If the
-    # current chromosome is equal to next chromosome then continue. If current is not equal to the
-    # next chromosome write to a file.
+    # at row number 1023.
 
     start=0
     end=0
